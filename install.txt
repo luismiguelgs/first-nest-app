@@ -1,0 +1,8 @@
+npm i --save class-validator class-transform
+nest g resource payments
+
+npm i prisma
+npx prisma init
+npx prisma migrate dev --name init
+
+npm install --save @nestjs/swagger
